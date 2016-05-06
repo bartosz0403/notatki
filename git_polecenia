@@ -1,0 +1,23 @@
+git init
+git add .
+git commit -m "komentarz"
+git -am "bez add"
+git config --global user.name "Imie i nazwisko"
+-||- user.email
+-||- color.status auto
+-||- color.branch auto
+git status
+git branch 
+git checkout 
+git merge
+git log
+
+
+echo "# notatki" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/bartosz0403/notatki.git
+git push -u origin master
+
+ssh-keygen -t rsa -C adres@email.pl
